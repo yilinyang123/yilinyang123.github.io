@@ -1,11 +1,4 @@
----
-title: "Simulation Error"
-date: "9/14/2019"
-author: "Yilin Yang"
-output:
-  md_document:
-    variant: markdown_github
----
+
 
 ```{r include=FALSE}
 knitr::opts_chunk$set(tidy = FALSE)
