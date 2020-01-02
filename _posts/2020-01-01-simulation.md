@@ -2,8 +2,8 @@
 layout: post
 title:  "simulation"
 date:   2020-01-01
-excerpt: "Minimal, one column Jekyll theme for your blog."
-project: true
+excerpt: "simulation study"
+project: false
 tag:
 - jekyll 
 - moon
