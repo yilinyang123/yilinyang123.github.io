@@ -1,5 +1,5 @@
 # Site
-title:              Moon
+title:              Yilin Yang
 bio:                'Minimal, one column jekyll theme.'
 description:        "Moon is a minimal, one column jekyll theme for your blog."
 reading_time:       true
@@ -37,12 +37,12 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
-twitter:            username
-facebook:           username
-github-url:         username
+email: yilinyang0619@gmail.com
+#twitter:            username
+#facebook:           username
+github-url:         yilinyang123
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
+linkedin:          yilinyang0619
 #xing:              username
 instagram:          username
 #lastfm:            username
