@@ -13,5 +13,8 @@ comments: false
 
 ## Yilin
 
-
+<p>Hey，I am Yilin. I am currently pursing a master of Data Science at Vanderbilt University</p>
+    
+<p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/yy-ds">Github·YilinYang</a>.</p>
+    
 
