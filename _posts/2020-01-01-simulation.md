@@ -3,7 +3,6 @@ layout: post
 title:  "simulation"
 date:   2020-01-01
 excerpt: "simulation study"
-project: false
 tag:
 - jekyll 
 - moon
