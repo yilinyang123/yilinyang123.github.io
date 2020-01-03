@@ -25,8 +25,10 @@ $$\boldsymbol{X}_{(N)} = X_{(1)}, X_{(2)}, \ldots, X_{(N)}$$ in ascending order
 
 ![meidan](https://yilinyang123.github.io/assets/img/writeup6_files/median.png)
 
-$$
-\begin{align*}&\text{median: }\  g(X_1, X_2, \ldots, X_N) = \\ &\text{smallest }\ x\ \text{ such that}\ \frac{1}{N}\sum_{i = 1}^N I(X_i \leq x) = .5\end{align*}
+median:
+$$g(X_1, X_2, \ldots, X_N)$$
+ = smallest x such that
+ $$\frac{1}{N}\sum_{i = 1}^N I(X_i \leq x) = .5\
 $$
 
 Let’s begin with a sample of N=200 from the standard normal
@@ -73,7 +75,7 @@ Cumulative Distribution Function (CDF) for median
 
 The CDF for *X*<sub>(*k*)</sub> is
 
-$F\_{(k)}(x) = \\sum\_{j = k}^N {n \\choose j}\[F(x)\]^{j}\[1-F(x)\]^{n-j}$
+$$F_{(k)}(x) = \sum_{j = k}^N {n \choose j}[F(x)]^{j}[1-F(x)]^{n-j}$$
 
 Apply this formula, we can get a plot of CDF and median
 
