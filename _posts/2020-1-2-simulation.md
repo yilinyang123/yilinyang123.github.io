@@ -3,14 +3,13 @@ layout: post
 title:  "Simulation Error"
 date:   2020-01-02
 excerpt: "absolute error & relative error"
-project: true
 tag:
 - jekyll 
 - moon
 - blog
 - about
 - theme
-comments: true
+comments: false
 ---
 
 Simulation generates approximate answers and there is some degree of
