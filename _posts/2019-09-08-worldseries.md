@@ -6,7 +6,7 @@ excerpt: "best of 7 match up"
 tag:
 - world series
 - statistics
-- bayes
+- bayes rule
 comments: false
 ---
 
