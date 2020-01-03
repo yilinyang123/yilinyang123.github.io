@@ -172,7 +172,7 @@ distribution. It is consistent with our conclusion in the first plot.
 Here is the graph for exponential distribution with different rate.
 
 
-![exponential](https://yilinyang123.github.io/assets/img/writeup5_files/exponential.png)
+![exponential](https://yilinyang123.github.io/assets/img/writeup5_files/Exponential.png)
 
 We can estimate exponential distribution with more precision when the
 number is with small percentile and with large density.
