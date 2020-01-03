@@ -25,7 +25,9 @@ $$\boldsymbol{X}_{(N)} = X_{(1)}, X_{(2)}, \ldots, X_{(N)}$$ in ascending order
 
 ![meidan](https://yilinyang123.github.io/assets/img/writeup6_files/median.png)
 
-$$\begin{align*}&\text{median: }\  g(X_1, X_2, \ldots, X_N) = \\ &\text{smallest }\ x\ \text{ such that}\ \frac{1}{N}\sum_{i = 1}^N I(X_i \leq x) = .5\end{align*}$$
+$$
+\begin{align*}&\text{median: }\  g(X_1, X_2, \ldots, X_N) = \\ &\text{smallest }\ x\ \text{ such that}\ \frac{1}{N}\sum_{i = 1}^N I(X_i \leq x) = .5\end{align*}
+$$
 
 Let’s begin with a sample of N=200 from the standard normal
 distribution.
@@ -37,7 +39,7 @@ Density Function for median
 
 The density function for *X*<sub>(*k*)</sub> is
 
-$f\_{(k)}(x) = k\\, {n \\choose k}\[F(x)\]^{k-1}\[1-F(x)\]^{n-k}f(x)$
+$$f\_{(k)}(x) = k\\, {n \\choose k}\[F(x)\]^{k-1}\[1-F(x)\]^{n-k}f(x)$$
 
 Apply this formula, we can get a plot of density and median
 
