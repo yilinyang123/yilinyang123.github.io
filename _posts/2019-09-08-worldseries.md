@@ -103,7 +103,7 @@ best-of-X series
 **Rule**:out of N sets, the team which wins (N+1)/2 sets out of N, wins
 the game
 
-<font size=4>
+
 <table>
 <tr>
 <td bgcolor="lightyellow">
@@ -112,7 +112,6 @@ Series\|P<sub>B</sub>=0.55)≥0.8
 </td>
 </tr>
 </table>
-</font>
 
 ``` r
 # define a function to calculate the probability of win world series given best-of-N series and PB
