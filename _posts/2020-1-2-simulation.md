@@ -92,7 +92,7 @@ lines(as.vector(rel_error[,5]),type="b",col="orange",lwd=3,pch=20)
 text(1,rel_error[1,],prob_label,pos=2,cex=0.7)
 ```
 
-![](https://yilinyang123.github.io/_posts/hw2_files/figure-markdown_github/unnamed-chunk-4-1.png)
+![](https://yilinyang123.github.io/assets/img/hw2_files/figure-markdown_github/unnamed-chunk-4-1.png)
 
 The reletive error declines a lot when N is between 4 and 64 and stays
 very samll after N exceeds 8192.
@@ -120,7 +120,7 @@ lines(log10(as.vector(abs_error[,1])),type="b",col="orange",lwd=3,pch=20)
 text(1,log10(abs_error[1,]),prob_label,pos=2,cex=0.7)
 ```
 
-![](https://yilinyang123.github.io/_posts/hw2_files/figure-markdown_github/unnamed-chunk-5-1.png)
+![](https://yilinyang123.github.io/assets/img/hw2_files/figure-markdown_github/unnamed-chunk-5-1.png)
 
 We can see that it seems to be a linear relationship between
 log10(absolute error) and N(log2 scale).
@@ -142,7 +142,7 @@ lines(log10(as.vector(rel_error[,5])),type="b",col="orange",lwd=3,pch=20)
 text(1,log10(rel_error[1,]),prob_label,pos=2,cex=0.7)
 ```
 
-![](https://yilinyang123.github.io/_posts/hw2_files/figure-markdown_github/unnamed-chunk-6-1.png)
+![](https://yilinyang123.github.io/assets/img/hw2_files/figure-markdown_github/unnamed-chunk-6-1.png)
 
 We can see that it also seems to be a linear relationship between
 log10(relative error) and N(log2 scale).
