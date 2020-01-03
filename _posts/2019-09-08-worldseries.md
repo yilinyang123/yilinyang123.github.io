@@ -95,7 +95,7 @@ plot(x=seq(0.51,1,0.01),y=get_probability(seq(0.51,1,0.01)),xlab='Probability of
 
 ![](https://yilinyang123.github.io/assets/img/writeup3_files/figure-markdown_github/unnamed-chunk-2-1.png)
 
-## <font color=darkgrey>Best-of-N Match-up</font>
+## <font color="darkgrey">Best-of-N Match-up</font>
 
 Suppose one could change the World Series to be best-of-9 or some other
 best-of-X series
@@ -135,7 +135,7 @@ for (i in seq(1,999,2)){
 Under the assumption P<sub>B</sub> = 0.55, the shortest series length is
 71 so that Braves have at least 80% chance to win World Series
 
-## <font color=darkgrey>Shortest Series Length</font>
+## <font color="darkgrey">Shortest Series Length</font>
 
 Given a series of P<sub>B</sub>, we want to know the shortest series
 length so that Braves have at least 80% chance to win World Series
@@ -196,9 +196,10 @@ P<sub>B</sub>=0.45
 </td>
 </tr>
 </table>
-</font> apply the Bayes’ rule here
+</font> 
+apply the Bayes’ rule here
 
-![apply bayes rule](https://yilinyang123.github.io/assets/img/writeup3_files/bayes.png)
+![](https://yilinyang123.github.io/assets/img/writeup3_files/bayes.png)
 
 ``` r
 dnbinom(3,4,0.55)*0.5/(dnbinom(3,4,0.55)*0.5+dnbinom(3,4,0.45)*0.5)
