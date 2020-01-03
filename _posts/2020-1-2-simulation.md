@@ -69,7 +69,7 @@ lines(as.vector(abs_error[,5]),type="b",col="orange",lwd=3,pch=20)
 text(1,abs_error[1,],prob_label,pos=2,cex=0.7)
 ```
 
-![](assets/img/logo.png)
+![](https://yilinyang123.github.io/assets/img/logo.png)
 
 The absolute error declines a lot when N is between 4 and 64 and stays
 very samll after N exceeds 8192.
