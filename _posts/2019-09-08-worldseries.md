@@ -22,12 +22,12 @@ winning team is awarded the Commissioner’s Trophy.
 Suppose that the Braves and the Yankees are teams competing in the World
 Series
 
-## <font color="darkgrey">Best-of-7 Match-up</font>
+## Best-of-7 Match-up
 
 **Rule**:out of 7 sets, the team which wins 4 sets out of 7, wins the
 game
 
-<font size=4>
+
 <table>
 <tr>
 <td bgcolor="lightyellow">
@@ -36,7 +36,7 @@ P<sub>B</sub>=0.55?
 </td>
 </tr>
 </table>
-</font>
+
 
 | Team        | The probability that the team win in any given game |
 |-------------|:----------------------------------------------------|
@@ -65,7 +65,7 @@ pnbinom(3,4,0.55)
 Now we want to know the probability that the Braves win the World Series
 given a series of P<sub>B</sub>
 
-<font size=4>
+
 <table>
 <tr>
 <td bgcolor="lightyellow">
@@ -74,7 +74,7 @@ P<sub>B</sub>=x?
 </td>
 </tr>
 </table>
-</font>
+
 
 | Team        | The probability that the team win in any given game |
 |-------------|:----------------------------------------------------|
@@ -95,7 +95,7 @@ plot(x=seq(0.51,1,0.01),y=get_probability(seq(0.51,1,0.01)),xlab='Probability of
 
 ![](https://yilinyang123.github.io/assets/img/writeup3_files/figure-markdown_github/unnamed-chunk-2-1.png)
 
-## <font color="darkgrey">Best-of-N Match-up</font>
+## Best-of-N Match-up
 
 Suppose one could change the World Series to be best-of-9 or some other
 best-of-X series
@@ -135,12 +135,11 @@ for (i in seq(1,999,2)){
 Under the assumption P<sub>B</sub> = 0.55, the shortest series length is
 71 so that Braves have at least 80% chance to win World Series
 
-## <font color="darkgrey">Shortest Series Length</font>
+## Shortest Series Length
 
 Given a series of P<sub>B</sub>, we want to know the shortest series
 length so that Braves have at least 80% chance to win World Series
 
-<font size=4>
 <table>
 <tr>
 <td bgcolor="lightyellow">
@@ -149,7 +148,6 @@ Series\|P<sub>B</sub>=x)≥0.8
 </td>
 </tr>
 </table>
-</font>
 
 This is the figure (see below) with P<sub>B</sub>on the x-axis and
 shortest series length is the y-axis.
@@ -174,7 +172,7 @@ plot(x=seq(0.501,1,0.001),y=c,xlab='Probability of the Braves winning a head-hea
 You may notice, as P<sub>B</sub> increases, the shortest series length
 decreases
 
-## <font color= darkgrey>Best-of-7 Match-up (win 4 lose 3)</font>
+## Best-of-7 Match-up (win 4 lose 3)
 
 Let’s go back to best of 7 series, suppose Braves lose 3 games before
 winning a 4th game
@@ -186,7 +184,7 @@ The prior probability would be:
 | P<sub>B</sub>=0.55 | 0.5         |
 | P<sub>B</sub>=0.45 | 0.5         |
 
-<font size=4>
+
 <table>
 <tr>
 <td bgcolor="lightyellow">
@@ -196,7 +194,7 @@ P<sub>B</sub>=0.45
 </td>
 </tr>
 </table>
-</font> 
+
 apply the Bayes’ rule here
 
 ![](https://yilinyang123.github.io/assets/img/writeup3_files/bayes.png)
