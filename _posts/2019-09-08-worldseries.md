@@ -15,13 +15,13 @@ The World Series is the annual championship series of Major League
 Baseball (MLB) in North America. The winner of the World Series
 championship is determined through a best-of-seven playoff, and the
 winning team is awarded the Commissioner’s Trophy.
-<center>
-![yankees vs braves](https://yilinyang123.github.io/assets/img/writeup3_files/logo2.jpg)
-</center>
-<center>
+
+![](https://yilinyang123.github.io/assets/img/writeup3_files/logo2.jpg)
+
+
 Suppose that the Braves and the Yankees are teams competing in the World
 Series
-</center>
+
 ## <font color="darkgrey">Best-of-7 Match-up</font>
 
 **Rule**:out of 7 sets, the team which wins 4 sets out of 7, wins the
@@ -95,7 +95,7 @@ plot(x=seq(0.51,1,0.01),y=get_probability(seq(0.51,1,0.01)),xlab='Probability of
 
 ![](https://yilinyang123.github.io/assets/img/writeup3_files/figure-markdown_github/unnamed-chunk-2-1.png)
 
-## <font color=darkgrey> Best-of-N Match-up </font>
+## <font color=darkgrey>Best-of-N Match-up</font>
 
 Suppose one could change the World Series to be best-of-9 or some other
 best-of-X series
@@ -135,7 +135,7 @@ for (i in seq(1,999,2)){
 Under the assumption P<sub>B</sub> = 0.55, the shortest series length is
 71 so that Braves have at least 80% chance to win World Series
 
-## <font color=darkgrey> Shortest Series Length </font>
+## <font color=darkgrey>Shortest Series Length</font>
 
 Given a series of P<sub>B</sub>, we want to know the shortest series
 length so that Braves have at least 80% chance to win World Series
@@ -174,7 +174,7 @@ plot(x=seq(0.501,1,0.001),y=c,xlab='Probability of the Braves winning a head-hea
 You may notice, as P<sub>B</sub> increases, the shortest series length
 decreases
 
-## <font color= darkgrey>Best-of-7 Match-up (win 4 lose 3) </font>
+## <font color= darkgrey>Best-of-7 Match-up (win 4 lose 3)</font>
 
 Let’s go back to best of 7 series, suppose Braves lose 3 games before
 winning a 4th game
@@ -197,9 +197,9 @@ P<sub>B</sub>=0.45
 </tr>
 </table>
 </font> apply the Bayes’ rule here
-<center>
+
 ![apply bayes rule](https://yilinyang123.github.io/assets/img/writeup3_files/bayes.png)
-</center>
+
 ``` r
 dnbinom(3,4,0.55)*0.5/(dnbinom(3,4,0.55)*0.5+dnbinom(3,4,0.45)*0.5)
 ```
