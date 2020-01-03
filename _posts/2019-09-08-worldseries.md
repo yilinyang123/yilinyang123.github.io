@@ -187,7 +187,7 @@ The prior probability would be:
 <table>
 <tr>
 <td bgcolor="lightyellow">
-Calculate P(P<sub>B</sub>=0.55\|Braves win World Series in 7 games)
+Calculate P(P<sub>B</sub>=0.55|Braves win World Series in 7 games)
 under the assumption that either P<sub>B</sub>=0.55 or
 P<sub>B</sub>=0.45
 </td>
