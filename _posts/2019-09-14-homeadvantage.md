@@ -11,7 +11,7 @@ tag:
 comments: false
 ---
 
-![yankees vs braves](https://yilinyang123.github.io/assets/img/photo.jpeg)
+![yankees vs braves](https://yilinyang123.github.io/assets/img/writeup4_files/photo.jpeg)
 
 ##  Home field advantage 
 
@@ -64,6 +64,7 @@ regular-season record
 </tbody>
 </table>
 
+
 | Game location |    No advantage   |                                                             Advantage|
 |:-------------:|:-----------------:|---------------------------------------------------------------------:|
 |      ATL      | *P*<sub>*B*</sub> |            *P*<sub>*B*</sub><sup>*H*</sup> = *P*<sub>*B*</sub> \* 1.1|
@@ -83,7 +84,7 @@ Let’s assume *P*<sub>*B*</sub> = 0.55
 There are 70 all-possible-world-series-outcomes, 35 for overall win and
 35 for overall lose.
 
-![yankees vs braves](https://yilinyang123.github.io/assets/img/outcome.png)
+![yankees vs braves](https://yilinyang123.github.io/assets/img/writeup4_files/outcome.png)
 
 For example, in this case, the probability that the Braves win the world
 series when the sequence of game locations is {NYC, NYC, ATL, ATL, ATL,
@@ -95,10 +96,10 @@ probability for wins as analytical probability that the Braves win the
 world series.
 
 
-![yankees vs braves](https://yilinyang123.github.io/assets/img/1.png)
+![yankees vs braves](https://yilinyang123.github.io/assets/img/writeup4_files/1.png)
 
 
-![yankees vs braves](https://yilinyang123.github.io/assets/img/2.png)
+![yankees vs braves](https://yilinyang123.github.io/assets/img/writeup4_files/2.png)
 
 ``` r
 require(dplyr)
@@ -477,9 +478,9 @@ absolute value for difference in probabilities actually increases as
 advantage factor increases.
 
 As advantage factor increases, probability to win in Atlanta
-*P*<sub>*B*</sub><sup>*H*</sup> = 0.55 \* *A**d**v**a**n**t**a**g**e**F**a**c**t**o**r*
+*P*<sub>*B*</sub><sup>*H*</sup> = 0.55 \* advantage factor
 will increases, and probability to win in New York
-*P*<sub>*B*</sub><sup>*A*</sup> = 1 − (1 − 0.55) \* *A**d**v**a**n**t**a**g**e**F**a**c**t**o**r*
+*P*<sub>*B*</sub><sup>*A*</sup> = 1 − (1 − 0.55) \* advantage factor
 will decrease. Since Yankees can play one more game at their home field,
 the probability that the Braves win world series with home filed
 advantage will decrease as advantage factor increases.
