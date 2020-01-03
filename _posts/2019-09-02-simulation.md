@@ -1,14 +1,12 @@
 ---
 layout: post
-title:  "Simulation Error"
-date:   2020-01-02
+title:  "Monte Carlo Simulation Error"
+date:   2019-09-02
 excerpt: "absolute error & relative error"
 tag:
-- jekyll 
-- moon
-- blog
-- about
-- theme
+- simulation
+- statistics
+- monte carlo method
 comments: false
 ---
 
