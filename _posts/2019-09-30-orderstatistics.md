@@ -39,7 +39,7 @@ Density Function for median
 
 The density function for *X*<sub>(*k*)</sub> is
 
-$$f\_{(k)}(x) = k\\, {n \\choose k}\[F(x)\]^{k-1}\[1-F(x)\]^{n-k}f(x)$$
+$$f_{(k)}(x) = k\, {n \choose k}[F(x)]^{k-1}[1-F(x)]^{n-k}f(x)$$
 
 Apply this formula, we can get a plot of density and median
 
