@@ -10,9 +10,7 @@ tag:
 comments: false
 ---
 
-
-**introduction**
-----------------
+## Introduction
 
 Coverage probability is an important operating characteristic of methods
 for constructing interval estimates, particularly confidence intervals.
@@ -21,8 +19,7 @@ maximum likelihood estimation and then calculate the proportion of the
 time that the interval contains the true value of median, which is
 coverage probability.
 
-**generate data**
------------------
+## Generate Data
 
 First, let’s generate a single sample from a standard normal
 distribution of size N=201 use rnorm function.
@@ -38,11 +35,12 @@ generate_data <- function(parameters){
 }
 ```
 
-**use MLE to estimate the distribution**
-========================================
+## Use MLE to Estimate the Distribution**
 
 For the normal model, the MLE solution is
-$\\hat{\\mu} = \\bar{X};\\ \\ \\widehat{\\sigma^2} = \\frac{N-1}{N}s^2\\approx s^2$
+$$
+\hat{\mu} = \bar{X};\ \ \widehat{\sigma^2} = \frac{N-1}{N}s^2\approx s^2
+$$
 
 Thus, we could use MLE to estimate the distribution of the single sample
 we generated before.
@@ -64,8 +62,7 @@ true.parameters %>% generate_data %>% est.mle
 We could see that the the mean and standard deviation for the generated
 sample is about 0 and 1, but with slight difference.
 
-**get confidence interval**
----------------------------
+## Get Confidence Interval
 
 Then let’s construct a confidence interval for the median
 
@@ -93,8 +90,7 @@ boot.meds.ci <- function(parameters){
 }
 ```
 
-**capture median**
-------------------
+## Capture Median
 
 The median for standard normal distribution is 0. A confidence interval
 will capture median if the lower confidence limit is less than zero and
@@ -110,8 +106,7 @@ capture_median <- function(ci){
 }
 ```
 
-**coverage probability**
-------------------------
+## Coverage Probability
 
 The coverage probability is the proportion of the time that the interval
 contains the true value of interest.
@@ -123,8 +118,7 @@ samples. Intervals in black capture the population parameter of
 interest; intervals in red do not. Thus, in this case the coverage
 probability is 49/50.
 
-**estimate the coverage probability for median**
-------------------------------------------------
+## Estimate the Coverage Probability for Median
 
 Now let’s take 95% confidence interval calculated for 5000 samples and
 compute the coverage probability as the proportion of samples for which
