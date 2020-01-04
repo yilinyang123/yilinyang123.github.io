@@ -2,7 +2,7 @@
 <hr>
                <ul class="pager">
                     {% if page.previous.url %}
-                    <li class="previous" style="padding-right:30px;">
+                    <li class="previous" style="padding-right:60px;">
                         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}" class="btn zoombtn">
                         <center>Previous</center>
                         <span>{{page.previous.title}}</span>
@@ -13,7 +13,7 @@
 
 
                     {% if page.next.url %}
-                    <li class="next" style="padding-right:30px;">
+                    <li class="next" style="padding-right:60px;">
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}" class="btn zoombtn">
                         <center>Next</center>
                         <span>{{page.next.title}}</span>
