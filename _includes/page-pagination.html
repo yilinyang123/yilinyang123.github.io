@@ -2,23 +2,23 @@
 <hr>
                <ul class="pager">
                     {% if page.previous.url %}
-                    <h3 class="previous">
+                    <li class="previous">
                         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}" class="btn zoombtn">
                         <center>Previous</center>
                         <span>{{page.previous.title}}</span>
                         </a>
-                    </h3>
+                    </li>
                     {% endif %}
 
 
 
                     {% if page.next.url %}
-                    <h3 class="next">
+                    <li class="next">
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}" class="btn zoombtn">
                         <center>Next</center>
                         <span>{{page.next.title}}</span>
                         </a>
-                    </h3>
+                    </li>
                     {% endif %}
                 </ul>
 
