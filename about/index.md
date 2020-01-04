@@ -6,15 +6,28 @@ date: 2016-03-21
 comments: false
 ---
     
-<center> Master student</center>
+<center>A data scientist has an artistic soul.</center>
 
-<blockquote><p>one shot, one opportunity<br></p></blockquote>
+## Yilin Yang
+* My name is Yilin Yang.
+* I am currently pursing a master of Data Science at Vanderbilt University
+* I had more experience in working with R, Python, MySQL, Tableau, HTML…
+* But it’s not all. Besides, I have my family, my life, my friends…
+* I have a passion for traveling and exploring. I hope I will can go to everywhere in the world in the future.
+* My goal establish this blog is created a place to store my knowledge, to share my experience, to inspire both you and me to explore and to talk anything.
+
+## Contact
+* Yilin Yang
+<p>✉️ yilinyang0619@gmail.com</p>
+<p>☎️ 615-319-5836</p>
+<p>🏠 Nashville, Tennessee</p>
 
 
-## Yilin
+## Thanks
+* This blog was forked from Moon. It’s made by @TaylanTatli.
+* Developed on GitHub and hosted for free on GitHub Pages 👉 <a href="http://github.com/yilinyang123">Github·YilinYang</a>.</p>
+    .
+* Thanks for visited and hope you enjoy !
 
-<p>Hey，I am Yilin. I am currently pursing a master of Data Science at Vanderbilt University</p>
-    
-<p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/yy-ds">Github·YilinYang</a>.</p>
     
 
