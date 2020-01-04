@@ -26,12 +26,12 @@ layout: compress
                         {% if post.project == null %}
                     <ul>
                         <li class="wow fadeInUp" data-wow-duration="1.5s">
-                            <h2>
-                                <a href="{{ site.url }}{{ post.url }}" class="post-title">
-                                    <span>{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+                            <div class="post-meta">
+                                <a class="post-link" href="{{ post.url | relative_url }}">
+                                    <h2 class="post-title">{{ post.title | escape }}</h2>
                                 </a>
-                                <span class="post-date"><i class="icon-calendar"></i>{{ post.date | date: '%d %b %Y' }}</span>
-                            </h2>
+                                <!--div class="post-date"><i class="icon-calendar"></i>{{ post.date | date: '%d %b %Y' }}</div-->
+                            </div>
                 
                             <p>{{ post.excerpt }}</p>
                             <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
