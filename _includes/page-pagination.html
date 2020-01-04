@@ -3,8 +3,8 @@
                <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}" class="tag">
-                        <span><center>previous</center></span>
+                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}" class="btn zoombtn">
+                        <center>Previous</center>
                         <span>{{page.previous.title}}</span>
                         </a>
                     </li>
@@ -14,8 +14,8 @@
 
                     {% if page.next.url %}
                     <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}" class="tag">
-                        <span><center>next</center></span>
+                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}" class="btn zoombtn">
+                        <center>Next</center>
                         <span>{{page.next.title}}</span>
                         </a>
                     </li>
