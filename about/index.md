@@ -17,7 +17,6 @@ comments: false
 * My goal establish this blog is created a place to store my knowledge, to share my experience, to inspire both you and me to explore and to talk anything.
 
 ## Contact
-* Yilin Yang
 <p>✉️ yilinyang0619@gmail.com</p>
 <p>☎️ 615-319-5836</p>
 <p>🏠 Nashville, Tennessee</p>
@@ -25,7 +24,7 @@ comments: false
 
 ## Thanks
 * This blog was forked from Moon. It’s made by @TaylanTatli.
-* Developed on GitHub and hosted for free on GitHub Pages 👉 <a href="http://github.com/yilinyang123">Github·YilinYang</a>.</p>
+* Developed on GitHub and hosted for free on GitHub Pages 👉 <a href="http://github.com/yilinyang123">Github·YilinYang</a>.
     .
 * Thanks for visited and hope you enjoy !
 
