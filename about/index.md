@@ -13,8 +13,8 @@ comments: false
 * I am currently pursing a master of Data Science at Vanderbilt University
 * I had more experience in working with R, Python, MySQL, Tableau, HTML…
 * But it’s not all. Besides, I have my family, my life, my friends…
-* I have a passion for traveling and exploring. I hope I will can go to everywhere in the world in the future.
-* My goal establish this blog is created a place to store my knowledge, to share my experience, to inspire both you and me to explore and to talk anything.
+* I have a passion for traveling and exploring. I dream of traveling the world in future.
+* My goal for establishing this blog is to create a space where I can share my knowledge, discuss my experiences, and inspire conversations.
 
 ## Contact
 <p>✉️ yilinyang0619@gmail.com</p>
